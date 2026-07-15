@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 200" width="100%" height="200">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono&amp;display=swap');
+      .title { font-family: 'Space Grotesk', sans-serif; font-size: 15px; fill: #e2e8f0; font-weight: 600; }
+      .desc { font-family: 'Inter', sans-serif; font-size: 11px; fill: #94a3b8; font-weight: 400; }
+      .meta { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #3b82f6; }
+      .card-bg { fill: #071428; stroke: rgba(255,255,255,0.06); stroke-width: 1; rx: 16px; }
+      .icon-box { fill: #0f172a; stroke: rgba(255,255,255,0.08); stroke-width: 1; rx: 8px; }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" class="card-bg" />
+  
+  <!-- Diagonal Decorative Linear Lines -->
+  <path d="M 230 0 L 270 40 M 240 0 L 270 30" stroke="rgba(255,255,255,0.02)" stroke-width="1.5" />
+
+  <!-- App Custom Icon -->
+  <g transform="translate(24, 24)">
+    <rect width="36" height="36" class="icon-box" />
+    <!-- Shopping Bag + AI Spark Vector -->
+    <path d="M 12 14 L 24 14 L 26 26 L 10 26 Z" fill="none" stroke="#3b82f6" stroke-width="1.5" />
+    <path d="M 15 14 C 15 11, 21 11, 21 14" fill="none" stroke="#3b82f6" stroke-width="1.5" />
+    <!-- AI Sparkle -->
+    <path d="M 18 17 L 19 19 L 21 20 L 19 21 L 18 23 L 17 21 L 15 20 L 17 19 Z" fill="#3b82f6" />
+  </g>
+
+  <!-- Title & Language Indicator -->
+  <text x="24" y="85" class="title">Shopify AI Assistant</text>
+  <text x="246" y="85" class="meta" text-anchor="end">javascript</text>
+  
+  <!-- Project Metadata Lines -->
+  <text x="24" y="110" class="desc">Automated Intelligence Research Engine</text>
+  <text x="24" y="128" class="desc">• Competitor pricing &amp; trend analysis</text>
+  <text x="24" y="144" class="desc">• Deep-learning product discovery models</text>
+  
+  <!-- Status Indicator -->
+  <g transform="translate(24, 173)">
+    <circle cx="4" cy="-4" r="3" fill="#3b82f6" />
+    <text x="16" y="0" class="meta" fill="#3b82f6">INTELLIGENCE NODE ACTIVE</text>
+  </g>
+</svg>
