@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 200" width="100%" height="200">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono&amp;display=swap');
+      .title { font-family: 'Space Grotesk', sans-serif; font-size: 15px; fill: #e2e8f0; font-weight: 600; }
+      .desc { font-family: 'Inter', sans-serif; font-size: 11px; fill: #94a3b8; font-weight: 400; }
+      .meta { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #3b82f6; }
+      .card-bg { fill: #071428; stroke: rgba(255,255,255,0.06); stroke-width: 1; rx: 16px; }
+      .icon-box { fill: #0f172a; stroke: rgba(255,255,255,0.08); stroke-width: 1; rx: 8px; }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" class="card-bg" />
+  
+  <!-- Diagonal Decorative Linear Lines -->
+  <path d="M 230 0 L 270 40 M 240 0 L 270 30" stroke="rgba(255,255,255,0.02)" stroke-width="1.5" />
+
+  <!-- App Custom Icon -->
+  <g transform="translate(24, 24)">
+    <rect width="36" height="36" class="icon-box" />
+    <!-- Browser + Shield Vector -->
+    <rect x="10" y="11" width="16" height="14" rx="2" fill="none" stroke="#22c55e" stroke-width="1.2" />
+    <line x1="10" y1="15" x2="26" y2="15" stroke="#22c55e" stroke-width="1.2" />
+    <path d="M 18 17 L 21 19 L 21 21 C 21 23 18 24 18 24 C 18 24 15 23 15 21 L 15 19 Z" fill="#22c55e" opacity="0.8"/>
+  </g>
+
+  <!-- Title & Language Indicator -->
+  <text x="24" y="85" class="title">PhishGuard</text>
+  <text x="246" y="85" class="meta" text-anchor="end">JavaScript</text>
+  
+  <!-- Project Metadata Lines -->
+  <text x="24" y="110" class="desc">Chrome Extension URL Analyzer</text>
+  <text x="24" y="128" class="desc">• Real-time threat &amp; phishing detection</text>
+  <text x="24" y="144" class="desc">• Zero-trust browser security shield</text>
+  
+  <!-- Status Indicator -->
+  <g transform="translate(24, 173)">
+    <circle cx="4" cy="-4" r="3" fill="#22c55e" />
+    <text x="16" y="0" class="meta" fill="#22c55e">BROWSER SHIELD ACTIVE</text>
+  </g>
+</svg>
