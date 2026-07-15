@@ -24,7 +24,7 @@
 
   <!-- Title & Language Indicator -->
   <text x="24" y="85" class="title">HIPS</text>
-  <text x="246" y="85" class="meta" text-anchor="end">Java</text>
+  <text x="246" y="85" class="meta" text-anchor="end">Java,php</text>
   
   <!-- Description lines -->
   <text x="24" y="110" class="desc">Host Intrusion Prevention System</text>
