@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="100%" height="320">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=Inter:wght@400;500&amp;display=swap');
+      .header { font-family: 'Space Grotesk', sans-serif; font-size: 14px; fill: #e2e8f0; font-weight: 600; letter-spacing: 0.08em; }
+      .tech-name { font-family: 'Inter', sans-serif; font-size: 13px; fill: #94a3b8; font-weight: 500; }
+      .col-bg { fill: #071428; stroke: rgba(255,255,255,0.06); stroke-width: 1; rx: 12px; }
+      .pill-bg { fill: #0f172a; stroke: rgba(255,255,255,0.04); stroke-width: 1; rx: 6px; }
+    </style>
+  </defs>
+
+  <!-- COLUMN 1: LANGUAGES -->
+  <g transform="translate(0, 10)">
+    <rect width="195" height="295" class="col-bg" />
+    <path d="M 0,12 A 12,12 0 0 1 12,0 L 183,0 A 12,12 0 0 1 195,12 L 195,45 L 0,45 Z" fill="#0f172a" />
+    <text x="20" y="27" class="header">LANGUAGES</text>
+    <line x1="0" y1="45" x2="195" y2="45" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- Items -->
+    <g transform="translate(15, 60)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#3b82f6" />
+      <text x="35" y="20" class="tech-name">Python</text>
+    </g>
+    <g transform="translate(15, 98)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#3b82f6" />
+      <text x="35" y="20" class="tech-name">C++</text>
+    </g>
+    <g transform="translate(15, 136)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#3b82f6" />
+      <text x="35" y="20" class="tech-name">Java</text>
+    </g>
+    <g transform="translate(15, 174)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#3b82f6" />
+      <text x="35" y="20" class="tech-name">TypeScript</text>
+    </g>
+    <g transform="translate(15, 212)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#3b82f6" />
+      <text x="35" y="20" class="tech-name">JavaScript</text>
+    </g>
+    <g transform="translate(15, 250)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#3b82f6" />
+      <text x="35" y="20" class="tech-name">HTML5 / CSS3</text>
+    </g>
+  </g>
+
+  <!-- COLUMN 2: ARCHITECTURES -->
+  <g transform="translate(218, 10)">
+    <rect width="195" height="295" class="col-bg" />
+    <path d="M 0,12 A 12,12 0 0 1 12,0 L 183,0 A 12,12 0 0 1 195,12 L 195,45 L 0,45 Z" fill="#0f172a" />
+    <text x="20" y="27" class="header">WEB PLATFORMS</text>
+    <line x1="0" y1="45" x2="195" y2="45" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- Items -->
+    <g transform="translate(15, 60)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#e2e8f0" />
+      <text x="35" y="20" class="tech-name">React / Native</text>
+    </g>
+    <g transform="translate(15, 98)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#e2e8f0" />
+      <text x="35" y="20" class="tech-name">Angular</text>
+    </g>
+    <g transform="translate(15, 136)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#e2e8f0" />
+      <text x="35" y="20" class="tech-name">Node.js</text>
+    </g>
+    <g transform="translate(15, 174)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#e2e8f0" />
+      <text x="35" y="20" class="tech-name">Vite</text>
+    </g>
+    <g transform="translate(15, 212)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#e2e8f0" />
+      <text x="35" y="20" class="tech-name">PocketBase</text>
+    </g>
+    <g transform="translate(15, 250)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#e2e8f0" />
+      <text x="35" y="20" class="tech-name">REST APIs</text>
+    </g>
+  </g>
+
+  <!-- COLUMN 3: SECURITY Operations -->
+  <g transform="translate(436, 10)">
+    <rect width="195" height="295" class="col-bg" />
+    <path d="M 0,12 A 12,12 0 0 1 12,0 L 183,0 A 12,12 0 0 1 195,12 L 195,45 L 0,45 Z" fill="#0f172a" />
+    <text x="20" y="27" class="header">CYBER SECURITY</text>
+    <line x1="0" y1="45" x2="195" y2="45" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- Items -->
+    <g transform="translate(15, 60)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#22c55e" />
+      <text x="35" y="20" class="tech-name">Wireshark</text>
+    </g>
+    <g transform="translate(15, 98)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#22c55e" />
+      <text x="35" y="20" class="tech-name">Burp Suite</text>
+    </g>
+    <g transform="translate(15, 136)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#22c55e" />
+      <text x="35" y="20" class="tech-name">Nmap</text>
+    </g>
+    <g transform="translate(15, 174)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#22c55e" />
+      <text x="35" y="20" class="tech-name">Kali Linux</text>
+    </g>
+    <g transform="translate(15, 212)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#22c55e" />
+      <text x="35" y="20" class="tech-name">OWASP Suite</text>
+    </g>
+  </g>
+
+  <!-- COLUMN 4: INTELLIGENCE & AUTO -->
+  <g transform="translate(655, 10)">
+    <rect width="195" height="295" class="col-bg" />
+    <path d="M 0,12 A 12,12 0 0 1 12,0 L 183,0 A 12,12 0 0 1 195,12 L 195,45 L 0,45 Z" fill="#0f172a" />
+    <text x="20" y="27" class="header">ARTIFICIAL INTEL</text>
+    <line x1="0" y1="45" x2="195" y2="45" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- Items -->
+    <g transform="translate(15, 60)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#3b82f6" />
+      <text x="35" y="20" class="tech-name">OpenAI API</text>
+    </g>
+    <g transform="translate(15, 98)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#3b82f6" />
+      <text x="35" y="20" class="tech-name">MCP Standards</text>
+    </g>
+    <g transform="translate(15, 136)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#3b82f6" />
+      <text x="35" y="20" class="tech-name">Prompt Eng.</text>
+    </g>
+    <g transform="translate(15, 174)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#3b82f6" />
+      <text x="35" y="20" class="tech-name">AI Agents</text>
+    </g>
+    <g transform="translate(15, 212)">
+      <rect width="165" height="30" class="pill-bg" />
+      <circle cx="20" cy="15" r="4" fill="#3b82f6" />
+      <text x="35" y="20" class="tech-name">Process Auto.</text>
+    </g>
+  </g>
+</svg>
