@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 40" width="500" height="40">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&amp;display=swap');
+      .typing-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 500;
+        font-size: 16px;
+        fill: #3b82f6;
+        letter-spacing: 0.05em;
+      }
+      .cursor {
+        fill: #e2e8f0;
+        animation: blink 0.8s infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 0; }
+        50% { opacity: 1; }
+      }
+      
+      /* Elegant text progression switcher */
+      @keyframes dynamicText {
+        0%, 15% { content: "Cyber Security Student"; }
+        20%, 35% { content: "AI Automation Developer"; fill: #22c55e; }
+        40%, 55% { content: "Full-Stack Engineer"; fill: #e2e8f0; }
+        60%, 75% { content: "Building Secure Intelligent Software"; fill: #3b82f6; }
+        80%, 95% { content: "Open Source Enthusiast"; fill: #94a3b8; }
+        100% { content: "Cyber Security Student"; }
+      }
+
+      .text-target::after {
+        content: "Cyber Security Student";
+        animation: dynamicText 15s infinite ease-in-out;
+      }
+    </style>
+  </defs>
+  
+  <g transform="translate(250, 24)" text-anchor="middle">
+    <text class="typing-text">
+      <tspan class="text-target"></tspan><tspan class="cursor" dx="4">_</tspan>
+    </text>
+  </g>
+</svg>
