@@ -1,154 +1,131 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="340">
+  <defs>
+    <!-- Dark Blue/Slate Palette Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#071428"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="glass-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="accent-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.4"/>
+    </linearGradient>
+    
+    <!-- Hexagonal pattern (Opacity 4%) -->
+    <pattern id="hex-grid" width="24" height="41.569" patternUnits="userSpaceOnUse">
+      <path d="M12 0 L24 6.928 L24 20.784 L12 27.712 L0 20.784 L0 6.928 Z M12 41.569 L24 34.641 L24 20.784 L12 27.712 L0 20.784 L0 34.641 Z" 
+            fill="none" stroke="#94a3b8" stroke-width="1" stroke-opacity="0.04"/>
+    </pattern>
 
-<defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono&amp;display=swap');
+      .text-title { font-family: 'Space Grotesk', sans-serif; font-weight: 700; fill: #e2e8f0; letter-spacing: 0.18em; font-size: 26px; }
+      .text-sub { font-family: 'Inter', sans-serif; font-weight: 400; fill: #94a3b8; letter-spacing: 0.1em; font-size: 13px; }
+      .text-mono { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #64748b; letter-spacing: 0.05em; }
+      .text-status { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #22c55e; font-weight: 600; }
+      .text-indicator { font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 10px; fill: #e2e8f0; letter-spacing: 0.05em; }
+      
+      /* Subtle Keyframes */
+      @keyframes pulse {
+        0%, 100% { opacity: 0.35; }
+        50% { opacity: 1; }
+      }
+      @keyframes scan {
+        0% { transform: translateY(-10px); opacity: 0; }
+        10%, 90% { opacity: 0.15; }
+        100% { transform: translateY(350px); opacity: 0; }
+      }
+      @keyframes circuit-glow {
+        0%, 100% { stroke-opacity: 0.05; stroke-width: 1px; }
+        50% { stroke-opacity: 0.35; stroke-width: 1.5px; stroke: #3b82f6; }
+      }
+      .pulsing-node { animation: pulse 3s infinite ease-in-out; }
+      .pulsing-green { animation: pulse 2s infinite ease-in-out; }
+      .scanning-line { animation: scan 7s infinite linear; }
+      .circuit-line { animation: circuit-glow 8s infinite ease-in-out; }
+    </style>
+  </defs>
 
-<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320">
-<stop offset="0%" stop-color="#020617"/>
-<stop offset="50%" stop-color="#071428"/>
-<stop offset="100%" stop-color="#0B1120"/>
-</linearGradient>
+  <!-- Background Layer -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)"/>
 
-<linearGradient id="title" x1="0" y1="0" x2="800" y2="0">
-<stop offset="0%" stop-color="#3B82F6"/>
-<stop offset="50%" stop-color="#ffffff"/>
-<stop offset="100%" stop-color="#22C55E"/>
+  <!-- Hexagonal Grid Overlay -->
+  <rect width="100%" height="100%" fill="url(#hex-grid)"/>
 
-<animate attributeName="x1" values="-500;1200;-500" dur="12s" repeatCount="indefinite"/>
-</linearGradient>
+  <!-- Circuit Trace Layer (Subtle PCB traces) -->
+  <g fill="none" stroke="#3b82f6" stroke-opacity="0.08" stroke-width="1">
+    <path class="circuit-line" d="M 50,170 L 150,170 L 200,120 L 350,120" />
+    <path class="circuit-line" d="M 1150,170 L 1050,170 L 1000,220 L 850,220" />
+    <path class="circuit-line" d="M 400,40 L 450,90 L 550,90" />
+    <path class="circuit-line" d="M 800,300 L 750,250 L 600,250" />
+    <circle cx="350" cy="120" r="3" fill="#3b82f6" fill-opacity="0.2"/>
+    <circle cx="850" cy="220" r="3" fill="#3b82f6" fill-opacity="0.2"/>
+  </g>
 
-<filter id="glow">
-<feGaussianBlur stdDeviation="3" result="blur"/>
-<feMerge>
-<feMergeNode in="blur"/>
-<feMergeNode in="SourceGraphic"/>
-</feMerge>
-</filter>
+  <!-- Scanning Line -->
+  <line class="scanning-line" x1="0" y1="0" x2="1200" y2="0" stroke="#3b82f6" stroke-width="2" />
 
-</defs>
+  <!-- Network Graph Decorative Nodes -->
+  <g class="pulsing-node">
+    <circle cx="120" cy="80" r="4" fill="#3b82f6" opacity="0.4"/>
+    <circle cx="120" cy="80" r="10" fill="none" stroke="#3b82f6" stroke-width="1" opacity="0.2"/>
+    <line x1="120" y1="80" x2="180" y2="50" stroke="#3b82f6" stroke-width="0.5" opacity="0.2"/>
+    
+    <circle cx="1080" cy="260" r="4" fill="#22c55e" opacity="0.4"/>
+    <circle cx="1080" cy="260" r="10" fill="none" stroke="#22c55e" stroke-width="1" opacity="0.2"/>
+    <line x1="1080" y1="260" x2="1020" y2="290" stroke="#22c55e" stroke-width="0.5" opacity="0.2"/>
+  </g>
 
-<rect width="1200" height="320" fill="url(#bg)"/>
+  <!-- Glassmorphic HUD Panel (Centered) -->
+  <g transform="translate(175, 85)">
+    <!-- Glass Panel Background -->
+    <rect width="850" height="170" rx="24" fill="url(#glass-grad)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+    
+    <!-- Accent Top/Bottom Highlights -->
+    <path d="M 24,0 L 826,0" stroke="url(#accent-blue)" stroke-width="1.5" fill="none"/>
+    
+    <!-- Left Online Badge Indicator -->
+    <g transform="translate(35, 30)">
+      <circle class="pulsing-green" cx="6" cy="6" r="5" fill="#22c55e"/>
+      <circle cx="6" cy="6" r="10" fill="none" stroke="#22c55e" stroke-width="1" opacity="0.3" class="pulsing-green"/>
+      <text x="24" y="10" class="text-status">ONLINE</text>
+    </g>
 
-<!-- Grid -->
+    <!-- Right Board Label -->
+    <text x="815" y="40" class="text-mono" text-anchor="end">SEC_DASH_v4.1.0 // LOCALHOST</text>
 
-<g opacity="0.08">
+    <!-- Center Main Title -->
+    <text x="425" y="75" class="text-title" text-anchor="middle">MUHAMMAD SAIM IFTIKHAR</text>
+    
+    <!-- Subtitle Bullet Track -->
+    <text x="425" y="105" class="text-sub" text-anchor="middle">
+      CYBER SECURITY   •   AI AUTOMATION   •   FULL-STACK ENGINEERING
+    </text>
 
-<path d="M0 40 H1200"/>
-<path d="M0 80 H1200"/>
-<path d="M0 120 H1200"/>
-<path d="M0 160 H1200"/>
-<path d="M0 200 H1200"/>
-<path d="M0 240 H1200"/>
-<path d="M0 280 H1200"/>
-
-<path d="M80 0 V320"/>
-<path d="M160 0 V320"/>
-<path d="M240 0 V320"/>
-<path d="M320 0 V320"/>
-<path d="M400 0 V320"/>
-<path d="M480 0 V320"/>
-<path d="M560 0 V320"/>
-<path d="M640 0 V320"/>
-<path d="M720 0 V320"/>
-<path d="M800 0 V320"/>
-<path d="M880 0 V320"/>
-<path d="M960 0 V320"/>
-<path d="M1040 0 V320"/>
-<path d="M1120 0 V320"/>
-
-</g>
-
-<!-- Circuit Lines -->
-
-<g stroke="#22C55E" stroke-width="2" opacity="0.45">
-
-<path d="M120 70 H260 V110 H430"/>
-
-<path d="M1000 70 H900 V120 H760"/>
-
-<path d="M200 260 H340 V220 H540"/>
-
-<path d="M1040 250 H930 V210 H720"/>
-
-</g>
-
-<!-- Pulses -->
-
-<circle r="4" fill="#22C55E">
-
-<animateMotion dur="6s" repeatCount="indefinite">
-
-<mpath href="#pulse1"/>
-
-</animateMotion>
-
-</circle>
-
-<path id="pulse1" d="M120 70 H260 V110 H430" opacity="0"/>
-
-<circle r="4" fill="#3B82F6">
-
-<animateMotion dur="8s" repeatCount="indefinite">
-
-<mpath href="#pulse2"/>
-
-</animateMotion>
-
-</circle>
-
-<path id="pulse2" d="M1040 250 H930 V210 H720" opacity="0"/>
-
-<!-- Name -->
-
-<text
-
-x="600"
-
-y="145"
-
-text-anchor="middle"
-
-font-size="44"
-
-font-family="Segoe UI, Arial"
-
-font-weight="700"
-
-fill="url(#title)"
-
-filter="url(#glow)">
-
-MUHAMMAD SAIM IFTIKHAR
-
-</text>
-
-<!-- Subtitle -->
-
-<text
-
-x="600"
-
-y="190"
-
-text-anchor="middle"
-
-font-size="20"
-
-font-family="Segoe UI"
-
-fill="#D4D4D8">
-
-Cyber Security • AI Automation • Full-Stack Engineering
-
-</text>
-
-<!-- Decorative Dots -->
-
-<circle cx="180" cy="60" r="3" fill="#22C55E">
-<animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="1030" cy="250" r="3" fill="#3B82F6">
-<animate attributeName="opacity" values="1;0.2;1" dur="4s" repeatCount="indefinite"/>
-</circle>
-
+    <!-- Bottom Metrics / Active State Indicators -->
+    <g transform="translate(110, 135)">
+      <!-- System Indicators -->
+      <g transform="translate(0, 0)">
+        <rect width="12" height="12" rx="3" fill="#3b82f6" opacity="0.8"/>
+        <text x="20" y="10" class="text-indicator">AI : ACTIVE</text>
+      </g>
+      <g transform="translate(150, 0)">
+        <rect width="12" height="12" rx="3" fill="#22c55e" opacity="0.8"/>
+        <text x="20" y="10" class="text-indicator">SEC : ACTIVE</text>
+      </g>
+      <g transform="translate(310, 0)">
+        <rect width="12" height="12" rx="3" fill="#e2e8f0" opacity="0.6"/>
+        <text x="20" y="10" class="text-indicator">AUTO : ACTIVE</text>
+      </g>
+      <g transform="translate(470, 0)">
+        <rect width="12" height="12" rx="3" fill="#3b82f6" opacity="0.8"/>
+        <text x="20" y="10" class="text-indicator">DEV : ACTIVE</text>
+      </g>
+    </g>
+  </g>
 </svg>
