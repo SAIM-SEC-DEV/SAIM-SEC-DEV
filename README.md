@@ -22,7 +22,7 @@
     <a href="https://github.com/SAIM-SEC-DEV" target="_blank">
       <img src="https://img.shields.io/badge/GitHub-071428?style=for-the-badge&logo=github&logoColor=E2E8F0&labelColor=020617&color=0F172A" alt="GitHub" style="border-radius: 6px; border: 1px solid rgba(255,255,255,0.08);" />
     </a>
-    <a href="mailto:saim2kazi006@gmail.com">
+    <a href="saim2kazi006@gmail.com">
       <img src="https://img.shields.io/badge/Email-071428?style=for-the-badge&logo=gmail&logoColor=22C55E&labelColor=020617&color=0F172A" alt="Email" style="border-radius: 6px; border: 1px solid rgba(255,255,255,0.08);" />
     </a>
   </div>
@@ -91,31 +91,7 @@
   <img src="assets/sections/divider.svg" alt="Section Divider" width="100%" />
   <br />
 
-  <!-- 8. OPEN SOURCE & ACTIVITY -->
-  <div style="text-align: left; margin: 40px 0;">
-    <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: 20px; color: #E2E8F0; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 24px; border-left: 3px solid #22C55E; padding-left: 12px;">Telemetry & Contributions</h2>
-    
-    <!-- Row of OS Telemetry widgets (Stylized to match dark mode UI) -->
-    <div align="center" style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Muhammad-Saim-Iftikhar&theme=react-dark&bg_color=020617&color=3B82F6&line=3B82F6&point=22C55E&area=true&hide_border=true" width="100%" alt="Activity Graph" />
-      
-      <div style="display: flex; gap: 16px; flex-wrap: wrap; justify-content: space-between; width: 100%;">
-        <img src="https://github-profile-trophy.vercel.app/?username=Muhammad-Saim-Iftikhar&theme=dracula&margin-w=15&margin-h=15&no-bg=true&no-border=true" style="max-width: 100%;" alt="Trophies" />
-      </div>
-      
-      <!-- Contributions Snake Game -->
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muhammad-Saim-Iftikhar/Muhammad-Saim-Iftikhar/output/github-contribution-grid-snake-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Muhammad-Saim-Iftikhar/Muhammad-Saim-Iftikhar/output/github-contribution-grid-snake.svg">
-        <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/Muhammad-Saim-Iftikhar/Muhammad-Saim-Iftikhar/output/github-contribution-grid-snake.svg" width="100%">
-      </picture>
-    </div>
-  </div>
-
-  <br />
-  <img src="assets/sections/divider.svg" alt="Section Divider" width="100%" />
-  <br />
-
+ 
   <!-- 9. FOOTER -->
   <div style="padding: 60px 0; text-align: center;">
     <p style="font-family: 'Space Grotesk', sans-serif; font-size: 14px; letter-spacing: 0.15em; text-transform: uppercase; color: #94A3B8; margin: 0 0 8px 0;">
