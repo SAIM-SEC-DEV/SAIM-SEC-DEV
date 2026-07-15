@@ -19,10 +19,10 @@
     <a href="https://www.linkedin.com/in/saim-iftikhar-85aa90378" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-071428?style=for-the-badge&logo=linkedin&logoColor=3B82F6&labelColor=020617&color=0F172A" alt="LinkedIn" style="border-radius: 6px; border: 1px solid rgba(255,255,255,0.08);" />
     </a>
-    <a href="https://github.com/Muhammad-Saim-Iftikhar" target="_blank">
+    <a href="https://github.com/SAIM-SEC-DEV" target="_blank">
       <img src="https://img.shields.io/badge/GitHub-071428?style=for-the-badge&logo=github&logoColor=E2E8F0&labelColor=020617&color=0F172A" alt="GitHub" style="border-radius: 6px; border: 1px solid rgba(255,255,255,0.08);" />
     </a>
-    <a href="mailto:your-email@domain.com">
+    <a href="mailto:saim2kazi006@gmail.com">
       <img src="https://img.shields.io/badge/Email-071428?style=for-the-badge&logo=gmail&logoColor=22C55E&labelColor=020617&color=0F172A" alt="Email" style="border-radius: 6px; border: 1px solid rgba(255,255,255,0.08);" />
     </a>
   </div>
@@ -55,39 +55,27 @@
   <br />
 
   <!-- 6. FEATURED PROJECTS -->
-  <div style="text-align: left; margin: 40px 0;">
-    <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: 20px; color: #E2E8F0; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 24px; border-left: 3px solid #22C55E; padding-left: 12px;">Featured Products</h2>
-    
-    <!-- Projects Grid Container -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px;">
-      
-      <!-- Card 1: HIPS -->
-      <a href="#" style="text-decoration: none; display: block;">
-        <img src="assets/projects/hips.svg" alt="HIPS Project" width="100%" />
-      </a>
-
-      <!-- Card 2: PhishGuard -->
-      <a href="#" style="text-decoration: none; display: block;">
-        <img src="assets/projects/phishguard.svg" alt="PhishGuard Project" width="100%" />
-      </a>
-
-      <!-- Card 3: Shopify AI Research Assistant -->
-      <a href="#" style="text-decoration: none; display: block;">
-        <img src="assets/projects/shopify.svg" alt="Shopify AI Research Assistant" width="100%" />
-      </a>
-
-      <!-- Card 4: Zimmedar -->
-      <a href="#" style="text-decoration: none; display: block;">
-        <img src="assets/projects/zimmedar.svg" alt="Zimmedar Project" width="100%" />
-      </a>
-
-      <!-- Card 5: Stealth Paradox -->
-      <a href="#" style="text-decoration: none; display: block;">
-        <img src="assets/projects/stealth.svg" alt="Stealth Paradox Project" width="100%" />
-      </a>
-
-    </div>
-  </div>
+ <div align="left" style="margin: 40px 0;">
+  <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: 20px; color: #E2E8F0; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 24px; border-left: 3px solid #22C55E; padding-left: 12px; display: inline-block;">Featured Products</h2>
+  
+  <p align="center">
+    <a href="https://github.com/Muhammad-Saim-Iftikhar/HIPS" style="text-decoration: none;">
+      <img src="assets/projects/hips.svg" alt="HIPS" width="260" style="margin: 8px; border-radius: 16px;" />
+    </a>
+    <a href="https://github.com/Muhammad-Saim-Iftikhar/PhishGuard" style="text-decoration: none;">
+      <img src="assets/projects/phishguard.svg" alt="PhishGuard" width="260" style="margin: 8px; border-radius: 16px;" />
+    </a>
+    <a href="https://github.com/Muhammad-Saim-Iftikhar/ShopifyAI" style="text-decoration: none;">
+      <img src="assets/projects/shopify.svg" alt="Shopify AI Research Assistant" width="260" style="margin: 8px; border-radius: 16px;" />
+    </a>
+    <a href="https://github.com/Muhammad-Saim-Iftikhar/Zimmedar" style="text-decoration: none;">
+      <img src="assets/projects/zimmedar.svg" alt="Zimmedar" width="260" style="margin: 8px; border-radius: 16px;" />
+    </a>
+    <a href="https://github.com/Muhammad-Saim-Iftikhar/StealthParadox" style="text-decoration: none;">
+      <img src="assets/projects/stealth.svg" alt="Stealth Paradox" width="260" style="margin: 8px; border-radius: 16px;" />
+    </a>
+  </p>
+</div>
 
   <br />
   <img src="assets/sections/divider.svg" alt="Section Divider" width="100%" />
