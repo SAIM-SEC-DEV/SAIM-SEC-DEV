@@ -26,7 +26,7 @@
 
   <!-- Title & Language Indicator -->
   <text x="24" y="85" class="title">Zimmedar</text>
-  <text x="246" y="85" class="meta" text-anchor="end">Python</text>
+  <text x="246" y="85" class="meta" text-anchor="end">react</text>
   
   <!-- Project Metadata Lines -->
   <text x="24" y="110" class="desc">Gamified Multilingual AI Assistant</text>
