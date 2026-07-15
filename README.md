@@ -1,82 +1,90 @@
-<div align="center">
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="Banner"/>
+</p>
 
-# Muhammad Saim Iftikhar
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=22&duration=3500&pause=700&color=22C55E&center=true&vCenter=true&width=750&lines=Cyber+Security+Student;AI+Automation+Developer;Full-Stack+Engineer;Building+Secure+Intelligent+Software"/>
+</p>
 
-### Cyber Security • AI Automation • Full-Stack Engineering
+<p align="center">
 
-Building intelligent software that combines security, automation, and artificial intelligence to solve real-world problems.
+<a href="YOUR_PORTFOLIO">
+<img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
 
-<br>
+<a href="YOUR_LINKEDIN">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white)](YOUR_PORTFOLIO)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
+<a href="mailto:YOUR_EMAIL">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
-</div>
-
----
-
-## About
-
-I build software at the intersection of **Cyber Security**, **Artificial Intelligence**, and **Modern Web Development**.
-
-My interests include browser automation, defensive security, AI-assisted workflows, and full-stack applications that emphasize usability, reliability, and secure design.
-
-I believe the best software isn't just functional—it should be intelligent, efficient, and built with purpose.
+</p>
 
 ---
 
-## Core Technologies
+# About
 
-**Languages**
+I build software where **Artificial Intelligence**, **Cyber Security**, and **Modern Engineering** intersect.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-E76F00?style=flat-square)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-
-**Development**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PocketBase](https://img.shields.io/badge/PocketBase-B8DBE4?style=flat-square)
-
-**Cyber Security**
-
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square)
-![Nmap](https://img.shields.io/badge/Nmap-004170?style=flat-square)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-
-**Artificial Intelligence**
-
-OpenAI • MCP • Prompt Engineering • AI Automation • Intelligent Workflows
+My work focuses on intelligent automation, browser technologies, defensive security, and full-stack applications that solve practical problems with simplicity and reliability.
 
 ---
 
-## Featured Projects
+# Tech Stack
 
-### 🛡️ HIPS
-A Host Intrusion Prevention System that monitors system activity, detects suspicious behavior, and provides real-time security insights.
+### Languages
 
-### 🕵️ PhishGuard
-A Chrome extension designed to detect phishing attempts by analyzing URLs and helping users browse the web more safely.
+<p>
+
+<img src="https://skillicons.dev/icons?i=python,cpp,java,js,ts,html,css"/>
+
+</p>
+
+### Frameworks & Development
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=react,angular,nodejs"/>
+
+</p>
+
+### Cyber Security
+
+`Wireshark` • `Burp Suite` • `Nmap` • `Kali Linux`
+
+### Artificial Intelligence
+
+`OpenAI` • `MCP` • `Prompt Engineering` • `AI Automation`
+
+---
+
+# Featured Projects
+
+### 🛡 HIPS
+
+Host Intrusion Prevention System for real-time monitoring and anomaly detection.
+
+### 🕵 PhishGuard
+
+Chrome extension that detects phishing websites and analyzes suspicious URLs.
 
 ### 🤖 Shopify AI Research Assistant
-An AI-powered research platform that automates fashion product discovery using market intelligence and competitor analysis.
+
+AI-powered research platform for discovering winning e-commerce products.
 
 ### 🌍 Zimmedar
-A civic education platform featuring AI assistance, gamification, multilingual support, quizzes, achievements, and interactive learning.
+
+Gamified civic education platform with AI assistance and multilingual support.
 
 ### 🔒 Stealth Paradox
-A browser-based steganography application for securely hiding and extracting information inside images.
+
+Browser-based steganography application for secure image communication.
 
 ---
 
-## Currently Exploring
+# Currently Exploring
 
 - AI Agents
 - Browser Automation
@@ -86,32 +94,32 @@ A browser-based steganography application for securely hiding and extracting inf
 
 ---
 
-## GitHub Analytics
-
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&theme=github_dark"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&theme=github_dark"/>
+<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=algolia&no-frame=true&column=4"/>
 
 </p>
 
 <p align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=github-dark&hide_border=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=github-dark&hide_border=true"/>
 
 </p>
 
----
+<p align="center">
 
-## Philosophy
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg"/>
 
-> **Build software that earns trust through intelligence, simplicity, and security.**
+</p>
 
 ---
 
 <div align="center">
 
-Always building. Always learning. Always improving.
+### Build with purpose.
+
+### Secure by design.
+
+### Automate with intelligence.
 
 </div>
