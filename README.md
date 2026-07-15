@@ -98,7 +98,7 @@
       Build with purpose. • Secure by design. • Automate with intelligence.
     </p>
     <p style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: rgba(255, 255, 255, 0.25); margin: 0;">
-      SYSTEM_STATUS: SECURE // RUN_LEVEL: 5
+      BLUE TEAMER
     </p>
   </div>
 
